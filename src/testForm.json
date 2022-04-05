@@ -1,81 +1,404 @@
 {
-	"question_1" : [
-	{
-		"label" : "Avez-vous plus de 50 ans ?",
-		"class" : "",
-		"id" : "start",
-		"answer" : [
+	"data" : [
 		{
-			"label" : "Oui",
-			"to" : "question_2_oui"
+			"title" : "question_1",
+			"question_1" : [
+				{
+					"label" : "Avez-vous plus de 50 ans ?",
+					"class" : "1",
+					"id" : "start",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_2_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_2_non"
+						}
+					]
+				}
+			]
 		},
 		{
-			"label" : "Non",
-			"to" : "question_2_non"
-		}
-		]
-	}
-	],
-	"question_2_oui" : [
-	{
-		"label" : "Avez-vous plus de 75 ans ?",
-		"class" : "d-none",
-		"id" : "question_2_oui",
-		"answer" : [
-		{
-			"label" : "Oui",
-			"to" : "question_3a_oui"
+			"title" : "question_2_oui",
+			"question_2_oui" : [
+				{
+					"label" : "Avez-vous plus de 70 ans ?",
+					"class" : "2 d-none question",
+					"id" : "question_2_oui",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_3a_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_3a_non"
+						}
+					]
+				}
+			]
 		},
 		{
-			"label" : "Non",
-			"to" : "question_3a_non"
-		}
-		]
-	}
-	],
-	"question_2_non" : [
-	{
-		"label" : "Avez-vous plus de 30 ans ?",
-		"class" : "d-none",
-		"id" : "question_2_non",
-		"answer" : [
-		{
-			"label" : "Oui",
-			"to" : "question_3b_oui"
+			"title" : "question_2_non",
+			"question_2_non" : [
+				{
+					"label" : "Avez-vous plus de 30 ans ?",
+					"class" : "2 d-none question",
+					"id" : "question_2_non",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_3b_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_3b_non"
+						}
+					]
+				}
+			]
 		},
 		{
-			"label" : "Non",
-			"to" : "question_3b_non"
+			"title" : "question_3a_oui",
+			"question_3a_oui" : [
+				{
+					"label" : "Avez-vous plus de 90 ans ?",
+					"class" : "3 d-none question",
+					"id" : "question_3a_oui",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_4a_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_4a_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_3a_non",
+			"question_3a_non" : [
+				{
+					"label" : "Avez-vous plus de 60 ans ?",
+					"class" : "3 d-none question",
+					"id" : "question_3a_non",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_4b_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_4b_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_3b_oui",
+			"question_3b_oui" : [
+				{
+					"label" : "Avez-vous plus de 40 ans ?",
+					"class" : "3 d-none question",
+					"id" : "question_3b_oui",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_4c_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_4c_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_3b_non",
+			"question_3b_non" : [
+				{
+					"label" : "Avez-vous plus de 10 ans ?",
+					"class" : "3 d-none question",
+					"id" : "question_3b_non",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_4d_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_4d_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_4a_oui",
+			"question_4a_oui" : [
+				{
+					"label" : "Vous avez plus de 90 ans!",
+					"class" : "4 d-none question",
+					"id" : "question_4a_oui"
+				}
+			]
+		},
+		{
+			"title" : "question_4a_non",
+			"question_4a_non" : [
+				{
+					"label" : "Vous avez plus de 80 ans!",
+					"class" : "4 d-none question",
+					"id" : "question_4a_non",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_5a_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_5a_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_4b_oui",
+			"question_4b_oui" : [
+				{
+					"label" : "Vous avez entre 60 et 70 ans",
+					"class" : "4 d-none question",
+					"id" : "question_4b_oui"
+				}
+			]
+		},
+		{
+			"title" : "question_4b_non",
+			"question_4b_non" : [
+				{
+					"label" : "Vous avez entre 50 et 60 ans",
+					"class" : "4 d-none question",
+					"id" : "question_4b_non"
+				}
+			]
+		},
+		{
+			"title" : "question_4c_oui",
+			"question_4c_oui" : [
+				{
+					"label" : "Avez-vous plus de 45 ans ?",
+					"class" : "4 d-none question",
+					"id" : "question_4c_oui",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_5b_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_5b_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_4c_non",
+			"question_4c_non" : [
+				{
+					"label" : "Avez-vous plus de 35 ans ?",
+					"class" : "4 d-none question",
+					"id" : "question_4c_non",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_5c_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_5c_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_4d_oui",
+			"question_4d_oui" : [
+				{
+					"label" : "Avez-vous plus de 20 ans ?",
+					"class" : "4 d-none question",
+					"id" : "question_4d_oui",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_5d_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_5d_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_4d_non",
+			"question_4d_non" : [
+				{
+					"label" : "Vous avez moins de 10 ans !",
+					"class" : "4 d-none question",
+					"id" : "question_4d_non"
+				}
+			]
+		},
+		{
+			"title" : "question_5a_oui",
+			"question_5a_oui" : [
+				{
+					"label" : "Vous avez entre 80 et 90 ans !",
+					"class" : "5 d-none question",
+					"id" : "question_5a_oui"
+				}
+			]
+		},
+		{
+			"title" : "question_5a_non",
+			"question_5a_non" : [
+				{
+					"label" : "Vous avez entre 70 et 80 ans !",
+					"class" : "5 d-none question",
+					"id" : "question_5a_non"
+				}
+			]
+		},
+		{
+			"title" : "question_5b_oui",
+			"question_5b_oui" : [
+				{
+					"label" : "Vous avez entre 45 et 50 ans !",
+					"class" : "5 d-none question",
+					"id" : "question_5b_oui"
+				}
+			]
+		},
+		{
+			"title" : "question_5b_non",
+			"question_5b_non" : [
+				{
+					"label" : "Vous avez entre 40 et 45 ans !",
+					"class" : "5 d-none question",
+					"id" : "question_5b_non"
+				}
+			]
+		},
+		{
+			"title" : "question_5c_oui",
+			"question_5c_oui" : [
+				{
+					"label" : "Vous avez entre 35 et 40 ans !",
+					"class" : "5 d-none question",
+					"id" : "question_5c_oui"
+				}
+			]
+		},
+		{
+			"title" : "question_5c_non",
+			"question_5c_non" : [
+				{
+					"label" : "Vous avez entre 30 et 35 ans !",
+					"class" : "5 d-none question",
+					"id" : "question_5c_non"
+				}
+			]
+		},
+		{
+			"title" : "question_5d_oui",
+			"question_5d_oui" : [
+				{
+					"label" : "Avez-vous plus de 25 ans ?",
+					"class" : "5 d-none question",
+					"id" : "question_5d_oui",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_6a_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_6a_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_5d_non",
+			"question_5d_non" : [
+				{
+					"label" : "Avez-vous plus de 15 ans ?",
+					"class" : "5 d-none question",
+					"id" : "question_5d_non",
+					"answer" : [
+						{
+							"label" : "Oui",
+							"to" : "question_6b_oui"
+						},
+						{
+							"label" : "Non",
+							"to" : "question_6b_non"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title" : "question_6a_oui",
+			"question_6a_oui" : [
+				{
+					"label" : "Avez-vous entre 25 et 30 ans !",
+					"class" : "6 d-none question",
+					"id" : "question_6a_oui"
+				}
+			]
+		},
+		{
+			"title" : "question_6a_non",
+			"question_6a_non" : [
+				{
+					"label" : "Avez-vous entre 20 et 25 ans !",
+					"class" : "6 d-none question",
+					"id" : "question_6a_non"
+				}
+			]
+		},
+		{
+			"title" : "question_6b_oui",
+			"question_6b_oui" : [
+				{
+					"label" : "Avez-vous entre 15 et 20 ans !",
+					"class" : "6 d-none question",
+					"id" : "question_6b_oui"
+				}
+			]
+		},
+		{
+			"title" : "question_6b_non",
+			"question_6b_non" : [
+				{
+					"label" : "Avez-vous entre 10 et 15 ans !",
+					"class" : "6 d-none question",
+					"id" : "question_6b_non"
+				}
+			]
 		}
-		]
-	}
-	],
-	"question_3a_oui" : [
-	{
-		"label" : "Vous avez plus de 75 ans.",
-		"class" : "d-none",
-		"id" : "question_3a_oui",
-	}
-	],
-	"question_3a_non" : [
-	{
-		"label" : "Vous avez entre 50 et 75 ans.",
-		"class" : "d-none",
-		"id" : "question_3a_non",
-	}
-	],
-	"question_3b_oui" : [
-	{
-		"label" : "Vous avez entre 30 et 50 ans.",
-		"class" : "d-none",
-		"id" : "question_3b_oui",
-	}
-	],
-	"question_3b_non" : [
-	{
-		"label" : "Vous avez moins de 30 ans.",
-		"class" : "d-none",
-		"id" : "question_3b_non",
-	}
 	]
 }

@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import testForm from "./testForm.json";
+import Questions from "./components/Questions";
+console.log(testForm);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="container text-center mt-5">
+          {testForm.data.map((question, index) => {
+              return <Questions key={index} question={question}/>
+          })}
+      </div>
   );
 }
 
