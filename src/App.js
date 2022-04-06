@@ -1,6 +1,5 @@
 import testForm from "./testForm.json";
 import Questions from "./components/Questions";
-console.log(testForm);
 function App() {
   return (
       <div className="container text-center mt-5">

@@ -10,11 +10,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_2_oui"
+							"to" : "question_2_oui",
+							"id" : "oui_btn1"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_2_non"
+							"to" : "question_2_non",
+							"id" : "non_btn1"
 						}
 					]
 				}
@@ -30,11 +32,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_3a_oui"
+							"to" : "question_3a_oui",
+							"id" : "oui_btn2"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_3a_non"
+							"to" : "question_3a_non",
+							"id" : "non_btn2"
 						}
 					]
 				}
@@ -50,11 +54,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_3b_oui"
+							"to" : "question_3b_oui",
+							"id" : "oui_btn2"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_3b_non"
+							"to" : "question_3b_non",
+							"id" : "non_btn2"
 						}
 					]
 				}
@@ -70,11 +76,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_4a_oui"
+							"to" : "question_4a_oui",
+							"id" : "oui_btn3"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_4a_non"
+							"to" : "question_4a_non",
+							"id" : "non_btn3"
 						}
 					]
 				}
@@ -90,11 +98,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_4b_oui"
+							"to" : "question_4b_oui",
+							"id" : "oui_btn3"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_4b_non"
+							"to" : "question_4b_non",
+							"id" : "non_btn3"
 						}
 					]
 				}
@@ -110,11 +120,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_4c_oui"
+							"to" : "question_4c_oui",
+							"id" : "oui_btn3"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_4c_non"
+							"to" : "question_4c_non",
+							"id" : "non_btn3"
 						}
 					]
 				}
@@ -130,11 +142,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_4d_oui"
+							"to" : "question_4d_oui",
+							"id" : "oui_btn3"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_4d_non"
+							"to" : "question_4d_non",
+							"id" : "non_btn3"
 						}
 					]
 				}
@@ -160,11 +174,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_5a_oui"
+							"to" : "question_5a_oui",
+							"id" : "oui_btn4"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_5a_non"
+							"to" : "question_5a_non",
+							"id" : "non_btn4"
 						}
 					]
 				}
@@ -200,11 +216,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_5b_oui"
+							"to" : "question_5b_oui",
+							"id" : "oui_btn4"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_5b_non"
+							"to" : "question_5b_non",
+							"id" : "non_btn4"
 						}
 					]
 				}
@@ -220,11 +238,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_5c_oui"
+							"to" : "question_5c_oui",
+							"id" : "oui_btn4"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_5c_non"
+							"to" : "question_5c_non",
+							"id" : "non_btn4"
 						}
 					]
 				}
@@ -240,11 +260,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_5d_oui"
+							"to" : "question_5d_oui",
+							"id" : "oui_btn4"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_5d_non"
+							"to" : "question_5d_non",
+							"id" : "non_btn4"
 						}
 					]
 				}
@@ -330,11 +352,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_6a_oui"
+							"to" : "question_6a_oui",
+							"id" : "oui_btn5"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_6a_non"
+							"to" : "question_6a_non",
+							"id" : "non_btn5"
 						}
 					]
 				}
@@ -350,11 +374,13 @@
 					"answer" : [
 						{
 							"label" : "Oui",
-							"to" : "question_6b_oui"
+							"to" : "question_6b_oui",
+							"id" : "oui_btn5"
 						},
 						{
 							"label" : "Non",
-							"to" : "question_6b_non"
+							"to" : "question_6b_non",
+							"id" : "non_btn5"
 						}
 					]
 				}
